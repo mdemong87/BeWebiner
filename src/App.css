@@ -1,0 +1,267 @@
+/* header section */
+.headerWrper {
+  background: #757370;
+  color: #fff;
+  padding: 5px 0px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.navbar-collapse {
+  position: relative;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 0;
+}
+
+
+/*banner */
+.bannerWrp {
+  width: 100%;
+  height: 600px;
+  background: url('./assest/image/living-room-1835923__480.jpg');
+  background-size: cover;
+}
+
+.dDlex {
+  background: radial-gradient(#dddddd00, #757370c8, #757370c3);
+  height: 100%;
+  align-items: end;
+  justify-content: center;
+  grid-gap: 50px;
+}
+
+.man {
+  height: 100% !important;
+  width: 335px;
+}
+
+.bannerText {
+  transform: translateY(-200px) !important;
+}
+
+.bannerText>button {
+  background: rgb(129, 225, 208);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+/*Counter*/
+.CounterErp {
+  border-bottom: 3px solid #d7d7d7;
+}
+
+/*About webinar*/
+.aboutWrp {
+  margin: 80px 0px !important;
+}
+
+.aboutCircle {
+  border: 5px solid rgb(224, 224, 224) !important;
+  padding: 30px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+/*four code  subject and single subjects*/
+.allsubjuctWrp {
+  background: url("./assest/image/webinar-home-pattern.png");
+  /* background-size: cover; */
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.textdisandheader {
+  text-align: left !important;
+}
+
+.SignUptodayBtn {
+  background: rgb(129, 225, 208);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+
+/*Invest*/
+.investWrp {
+  border-bottom: 3px solid #ddd;
+}
+
+
+/*footer*/
+.footerlogo {
+  width: 150px;
+}
+
+.FooteryBtn {
+  background: rgb(129, 225, 208);
+  color: black;
+  padding: 5px 10px;
+  border: none;
+  font-weight: 500;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.ficons {
+  font-size: 27px;
+  cursor: pointer;
+}
+
+
+
+
+/*webnider page web dlide*/
+.webdlideImageWrp {
+  background: radial-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.630), rgba(0, 0, 0, 0.630)), url("./assest/image/webinar-webinars-top-bg.jpg");
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+.sliderwebinerWrp {
+  height: 100%;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  gap: 90px;
+
+}
+
+.playbtn {
+  width: 100px;
+  text-align: center;
+}
+
+.playIcon {
+  font-size: 100px;
+  color: rgb(129, 225, 208);
+  cursor: pointer;
+}
+
+/*SingleInvereter*/
+.singleInversterWrper {
+  background: url("./assest/image/webinar-home-pattern.png");
+  height: fit-content;
+  color: #fff;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.inversterIcons {
+  font-size: 80px;
+  background: rgb(129, 225, 208);
+  color: #fff;
+  padding: 10px;
+}
+
+/*newsWrper*/
+.newsHead {
+  background: #757370;
+  padding: 45px 0px;
+  text-align: center;
+  color: #fff;
+}
+
+/*Singlde news*/
+.Blogimage {
+  cursor: pointer;
+  transition: .3s;
+  width: 80%;
+}
+
+.Blogimage:hover {
+  transform: scale(1.1) !important;
+}
+
+/*about us*/
+
+.aboutWrperOne {
+  background: linear-gradient(rgba(0, 0, 0, 0.220), rgba(0, 0, 0, 0.220)), url('./assest/image/webinar-about-main-bg.jpg');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.aboutWrperTwo {
+  background: url('./assest/image/webinar-about-michael.jpg');
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.aboutbox {
+  width: 600px;
+  height: 500px;
+  background: rgb(129, 225, 208);
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 50px;
+}
+
+.sideContainer {
+  background: rgb(129, 225, 208);
+  border-radius: 10px;
+}
+
+
+/*contact*/
+.contactFrist {
+  background: linear-gradient(rgba(255, 0, 0, 0), #ffffff), url("./assest/image/webinar-contact-main-bg.jpg");
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
+
+.sendMessagebtn {
+  background: rgb(129, 225, 208);
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.card {
+  background: rgb(129, 225, 208);
+}
+
+.viewBtn {
+  margin: 50px 0px;
+  padding: 10px;
+  border: none;
+}
+
+.one {
+  background: rgb(129, 225, 208);
+}
