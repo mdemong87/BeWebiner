@@ -18,17 +18,17 @@ export default function NewsWrper() {
 
 
                 <nav className="mt-5 mb-5 w-75 m-auto " aria-label="...">
-                    <ul class="pagination d-flex justify-content-center">
-                        <li class="page-item disabled">
-                            <a class="page-link" href="#" tabindex="-1">Previous</a>
+                    <ul className="pagination d-flex justify-content-center">
+                        <li className="page-item disabled">
+                            <a className="page-link" href="#" tabIndex="-1">Previous</a>
                         </li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item active">
-                            <a class="page-link" href="#">2</a>
+                        <li className="page-item"><a className="page-link" href="#">1</a></li>
+                        <li className="page-item active">
+                            <a className="page-link back" href="#">2</a>
                         </li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">Next</a>
+                        <li className="page-item"><a className="page-link" href="#">3</a></li>
+                        <li className="page-item">
+                            <a className="page-link text-muted" href="#">Next</a>
                         </li>
                     </ul>
                 </nav>

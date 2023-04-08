@@ -1,3 +1,7 @@
+body {
+  font-family: 'Rum Raisin', sans-serif;
+}
+
 /* header section */
 .headerWrper {
   background: #757370;
@@ -7,7 +11,7 @@
 
 .navheaderWrper {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   z-index: 1;
@@ -236,6 +240,24 @@
   justify-content: center;
   flex-direction: column;
   padding: 20px 50px;
+}
+
+.dddd {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.back {
+  background: rgb(129, 225, 208) !important;
+  border: none;
+}
+
+.active {
+  color: rgb(129, 225, 208) !important;
+}
+
+.naver:hover {
+  color: rgb(129, 225, 208) !important;
 }
 
 .sideContainer {

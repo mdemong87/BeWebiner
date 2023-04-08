@@ -13,23 +13,23 @@ export default function SingleInvester() {
                 </div>
                 <div>
                     <div className='w-75 m-auto mt-5 d-flex align-items-center justify-content-between singeInverterItems'>
-                        <div className='d-flex align-items-center gap-1'>
+                        <div className='d-flex align-items-center gap-1 pt-4'>
                             <FaLayerGroup className='inversterIcons' />
-                            <div className='d-flex flex-column'>
+                            <div className='d-flex flex-column dddd'>
                                 <h3>Lorem, ipsum.</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
                             </div>
                         </div>
-                        <div className='d-flex align-items-center gap-1'>
+                        <div className='d-flex align-items-center gap-1 pt-4'>
                             <BsFillDatabaseFill className='inversterIcons' />
-                            <div className='d-flex flex-column'>
+                            <div className='d-flex flex-column dddd'>
                                 <h3>Lorem, ipsum.</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
                             </div>
                         </div>
-                        <div className='d-flex align-items-center gap-1'>
+                        <div className='d-flex align-items-center gap-1 pt-4'>
                             <BsLightbulbFill className='inversterIcons' />
-                            <div className='d-flex flex-column'>
+                            <div className='d-flex flex-column dddd'>
                                 <h3>Lorem, ipsum.</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
                             </div>
