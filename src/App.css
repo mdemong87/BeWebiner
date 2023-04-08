@@ -5,6 +5,14 @@
   padding: 5px 0px;
 }
 
+.navheaderWrper {
+  display: flex;
+  justify-content: end;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 1;
+}
+
 .logo {
   width: 200px;
 }
@@ -133,22 +141,23 @@
 /*webnider page web dlide*/
 .webdlideImageWrp {
   background: radial-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.630), rgba(0, 0, 0, 0.630)), url("./assest/image/webinar-webinars-top-bg.jpg");
-  width: 100%;
+  width: 100% !important;
   background-size: cover;
   background-attachment: fixed;
   height: 700px;
+
+
 }
 
 .sliderwebinerWrp {
   height: 100%;
-  width: 500px;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: auto;
   gap: 90px;
-
 }
 
 .playbtn {
@@ -202,7 +211,7 @@
 .aboutWrperOne {
   background: linear-gradient(rgba(0, 0, 0, 0.220), rgba(0, 0, 0, 0.220)), url('./assest/image/webinar-about-main-bg.jpg');
   height: 100vh;
-  width: 100%;
+  width: 100% !important;
   background-size: cover;
 }
 
@@ -218,7 +227,7 @@
 
 .aboutbox {
   width: 600px;
-  height: 500px;
+  height: fit-content;
   background: rgb(129, 225, 208);
   color: black;
   border-radius: 10px;
@@ -226,7 +235,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0px 50px;
+  padding: 20px 50px;
 }
 
 .sideContainer {
@@ -265,3 +274,62 @@
 .one {
   background: rgb(129, 225, 208);
 }
+
+
+
+@media (max-width:768px) {
+  .man {
+    width: 200px;
+    margin-left: 10px;
+  }
+
+  .bannerText {
+    transform: translateY(-60px) !important;
+    font-size: 18px !important;
+    margin-right: 10px;
+  }
+
+  .dDlex {
+    grid-gap: 15px;
+  }
+
+  .bannerWrp {
+    height: 400px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center !important;
+    text-align: center;
+  }
+
+  .aboutSecend {
+    margin-top: 40px;
+  }
+
+  .allsubjectrow {
+    padding: 10px;
+  }
+
+  .singeInverterItems {
+    flex-direction: column;
+  }
+
+  .aboutbox {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .Quis {
+    padding: 20px;
+  }
+
+  .sideContainer {
+    padding: 20px;
+    margin-top: 20px;
+    height: fit-content !important;
+  }
+}
+
+@media (max-width:1040px) {}

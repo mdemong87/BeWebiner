@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '../.../../Componnent/Container';
+import Container from 'react-bootstrap/Container';
 import infoIcons from "../assest/image/webinar-about-info-icon.png";
 import singnature from "../assest/image/webinar-about-singnature.png";
 
@@ -28,7 +28,7 @@ export default function Aboutus() {
 
             {/* about us second section */}
             <Container>
-                <div className='row mt-5 mb-5'>
+                <div className='row mt-5 mb-5 Quis'>
                     <div className='col-sm-12 col-md-8'>
                         <h2>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequ n voluptate velit esse</h2>
                         <div className='d-flex flex-column'>

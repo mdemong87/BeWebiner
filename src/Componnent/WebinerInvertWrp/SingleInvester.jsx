@@ -1,16 +1,18 @@
 import React from 'react';
+import Container from "react-bootstrap/Container";
 import { BsFillDatabaseFill, BsLightbulbFill } from "react-icons/bs";
 import { FaLayerGroup } from "react-icons/fa";
 import imge from "../../assest/image/webinar-webinars-finance.jpg";
-import Container from "../Container";
 
 export default function SingleInvester() {
     return (
         <div className='singleInversterWrper'>
             <Container>
-                <img src={imge} alt="" />
+                <div className='w-100 p-3'>
+                    <img className='w-100' src={imge} alt="" />
+                </div>
                 <div>
-                    <div className='w-75 m-auto mt-5 d-flex align-items-center justify-content-between'>
+                    <div className='w-75 m-auto mt-5 d-flex align-items-center justify-content-between singeInverterItems'>
                         <div className='d-flex align-items-center gap-1'>
                             <FaLayerGroup className='inversterIcons' />
                             <div className='d-flex flex-column'>

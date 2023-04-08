@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from "../Componnent/Container";
+import Container from "react-bootstrap/Container";
 import contactIcons from "../assest/image/webinar-contact-pricing-icon.png";
 import contactIconsTwo from "../assest/image/webinar-contact-pricing-icon2.png";
 

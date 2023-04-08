@@ -7,8 +7,6 @@ export default function Webiner() {
     <Layout>
       <WebinerSlider />
       <WebinerInvertWrp />
-
-
     </Layout>
   )
 }
