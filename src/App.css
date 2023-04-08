@@ -162,11 +162,93 @@ body {
   flex-direction: column;
   margin: auto;
   gap: 90px;
+
 }
 
 .playbtn {
   width: 100px;
   text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+
+.playbtn::after {
+  position: absolute;
+  content: '';
+  bottom: -7px;
+  top: -7px;
+  left: -7px;
+  right: -7px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 4px solid rgb(129, 225, 208);
+  margin: 0px;
+  opacity: 1;
+  transform-origin: center;
+  animation: anim 1s linear infinite;
+  z-index: -1;
+}
+
+.playbtn::before {
+  position: absolute;
+  content: '';
+  bottom: -7px;
+  top: -7px;
+  left: -7px;
+  right: -7px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 4px solid rgb(129, 225, 208);
+  margin: 0px;
+  opacity: 0.8;
+  transform-origin: center;
+  animation: anim 1s linear 400ms infinite;
+  z-index: -1;
+}
+
+/*animation css*/
+
+@keyframes anim {
+  from {
+    margin: 0px;
+    opacity: 1;
+  }
+
+  to {
+    margin: -15px;
+    opacity: 0;
+  }
+}
+
+
+
+.vedio {
+  width: 80%;
+  height: 80vh;
+  position: absolute;
+  top: 120px;
+  left: 150px;
+  z-index: 3;
+
+}
+
+.cross {
+  text-align: right;
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  text-align: center;
+  background: rgb(129, 225, 208);
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.veidiofram {
+  border: 1px solid rgb(129, 225, 208);
+  border-radius: 6px;
 }
 
 .playIcon {
@@ -352,6 +434,17 @@ body {
     margin-top: 20px;
     height: fit-content !important;
   }
+
+  .vedio {
+    left: 20px !important;
+    top: 200px;
+    width: 90%;
+    height: 50vh !important;
+  }
 }
 
-@media (max-width:1040px) {}
+@media (max-width:1040px) {
+  .vedio {
+    left: 90px;
+  }
+}
