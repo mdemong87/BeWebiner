@@ -2,9 +2,10 @@ import React from 'react';
 import Container from "react-bootstrap/Container";
 import { BsFillDatabaseFill, BsLightbulbFill } from "react-icons/bs";
 import { FaLayerGroup } from "react-icons/fa";
-import imge from "../../assest/image/webinar-webinars-finance.jpg";
 
-export default function SingleInvester() {
+
+
+export default function SingleInvester({ imge }) {
     return (
         <div className='singleInversterWrper'>
             <Container>

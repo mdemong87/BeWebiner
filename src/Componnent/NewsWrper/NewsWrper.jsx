@@ -1,4 +1,9 @@
 import Container from "react-bootstrap/Container";
+import NewsimageThree from "../../assest/image/webinar-blog-featured1-960x720.jpg";
+import NewsimageFour from "../../assest/image/webinar-blog-featured2-960x720.jpg";
+import NewsimageTwo from "../../assest/image/webinar-blog-featured4-960x720.jpg";
+import NewsimageOne from "../../assest/image/webinar-blog-featured5-960x720.jpg";
+
 import SingleNews from "./SingleNews";
 
 export default function NewsWrper() {
@@ -7,12 +12,12 @@ export default function NewsWrper() {
             <h1 className="newsHead">News</h1>
             <Container>
                 <div className="row">
-                    <SingleNews />
-                    <SingleNews />
-                    <SingleNews />
-                    <SingleNews />
-                    <SingleNews />
-                    <SingleNews />
+                    <SingleNews Newsimage={NewsimageOne} />
+                    <SingleNews Newsimage={NewsimageTwo} />
+                    <SingleNews Newsimage={NewsimageThree} />
+                    <SingleNews Newsimage={NewsimageFour} />
+                    <SingleNews Newsimage={NewsimageThree} />
+                    <SingleNews Newsimage={NewsimageOne} />
                 </div>
 
 
