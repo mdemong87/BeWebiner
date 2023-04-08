@@ -2,7 +2,8 @@ import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from "../assest/image/webinar_logo_retina.png";
+// import logo from "../assest/image/webinar_logo_retina.png";
+import logo from "../assest/image/justlogo.png";
 
 
 export default function Header() {
@@ -25,10 +26,10 @@ export default function Header() {
         <Navbar expand="lg">
           <Container>
 
-            <Navbar.Brand href="/">
-              <img className='logo' src={logo} alt="logo" />
+            <Navbar.Brand href="/" className="d-flex align-items-center">
+              <img className='logo' src={logo} alt="logo" /><span className="text-light h3 pt-2">BeWebiner</span>
             </Navbar.Brand>
-            <Navbar.Toggle className=" border text-light" aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle className="text-light" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className=" w-100 text-center headerWrper navheaderWrper">
                 <Nav.Link className={`text-light naver ${activerone ? "active" : ""} `} href="/">Home</Nav.Link>

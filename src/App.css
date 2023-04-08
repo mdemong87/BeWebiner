@@ -6,7 +6,9 @@ body {
 .headerWrper {
   background: #757370;
   color: #fff;
-  padding: 5px 0px;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
 }
 
 .navheaderWrper {
@@ -15,10 +17,14 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   z-index: 1;
+  align-items: center;
+  transform: translateY(-20px);
 }
 
 .logo {
-  width: 200px;
+  /* width: 200px; */
+  width: 35px;
+  margin-right: 15px !important;
 }
 
 .navbar-collapse {
@@ -379,8 +385,6 @@ body {
   background: rgb(129, 225, 208);
 }
 
-
-
 @media (max-width:768px) {
   .man {
     width: 200px;
@@ -440,6 +444,17 @@ body {
     top: 200px;
     width: 90%;
     height: 50vh !important;
+  }
+
+}
+
+@media (max-width:991px) {
+  .navheaderWrper {
+    transform: translateY(0);
+    border-bottom: 1px solid rgb(129, 225, 208);
+    border-left: 1px solid rgb(129, 225, 208);
+    border-right: 1px solid rgb(129, 225, 208);
+    padding: 10px 0px;
   }
 }
 

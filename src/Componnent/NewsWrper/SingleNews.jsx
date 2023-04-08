@@ -1,7 +1,7 @@
 import React from 'react';
-import Newsimage from "../../assest/image/webinar-blog-featured4-960x720.jpg";
 
-export default function SingleNews() {
+
+export default function SingleNews({ Newsimage }) {
     return (
         <div className='col-sm-12 col-md-6 col-lg-4 text-center p-3'>
 
